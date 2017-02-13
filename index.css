@@ -1,0 +1,31 @@
+.ui3-suggestion{
+    position: absolute;
+    border: 1px solid #ccc;
+    background: white;
+    display: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    z-index: 10000;
+    font: 12px Tahoma,Helvetica Neue,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+}
+
+.ui3-suggestion-item, .ui3-suggestion-header, .ui3-suggestion-footer{
+    display: block;
+    text-indent: 5px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #333;
+}
+
+.ui3-suggestion-item:hover, .ui3-suggestion-active{
+    background: #eee;
+    cursor: pointer;
+}
+
+.ui3-suggestion-header, .ui3-suggestion-footer{
+    color: #0090e0;
+    display: none;
+}
